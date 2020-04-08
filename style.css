@@ -1,0 +1,158 @@
+html {
+    font-family: 'Roboto';
+}
+body {
+    margin: 0px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 73px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    box-shadow: 0px 2px 2px rgba(88, 47, 46, 0.1);
+}
+.main-nav li {
+    display: inline;
+    padding: 20px;
+}
+.nav-links {
+    text-decoration: none;
+    color: #000000;
+}
+.logo {
+    margin: 9px 44px 10px 227px;
+    
+} 
+.login {
+    margin: auto;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16;
+    width: 185px;
+    height: 41.25px;
+    background-color: #582F2E;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+button:hover {
+    box-shadow: 0px 4px 5px rgba(88, 47, 46, 0.25);
+}
+button:active {
+    background-color: #301817;
+    color: #BF9F62;
+}
+button:focus {
+    outline: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(background1.png);
+    background-repeat: no-repeat;
+    height: 625px;
+    margin: 0px;
+}
+.main h1 {
+    font-family: "Palatino Linotype";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 200px;
+    color: #582F2E;
+    max-width: 521px;
+    margin-bottom: 0px;
+}
+.main p {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 210px;
+    max-width: 450px;
+    text-align: left;
+    font-size: 14;
+}
+.enlist-btn {
+    margin: 20px;
+    margin-left: 200px;
+    font: Roboto bold 16;
+    width: 288px;
+    height: 41.25px;
+    background-color: #582F2E;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.info { 
+    margin: 0px;
+    background: #BF9F62;
+}
+.info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    padding: 30px 227px 30px 227px;
+    margin: 0px;
+}
+
+/* --------------------Desktop 2------------------- */
+.enlist{
+    margin: 0px;
+    padding-left: 212px;
+    background: url(background2.png);
+    background-repeat: no-repeat;
+    height: 956px;
+}
+.enlist p{
+    max-width: 512px;
+}
+ul.enlist-form {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.enlist-form li {
+    margin: 5px 0px 5px 0px;
+}
+h2 {
+    margin-top: 0px;
+    padding-top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #582F2E;
+}
+h4 {
+    margin: 4px 0px 3px 0px;
+    color: #582F2E;
+}
+input, select{
+    width: 476px;
+    height: 40px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border: 0px;
+    border-radius: 3px;
+    outline: 0;
+}
+.enlist-form-done {
+    width: 476px;
+    height: 41px;
+    outline: 0;
+    border: 0px;
+    border-radius: 10px;
+    background: #582F2E;
+    color: #FFFFFF;
+}
